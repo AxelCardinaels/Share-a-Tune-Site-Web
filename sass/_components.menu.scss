@@ -1,0 +1,49 @@
+.header__menu{
+    width:71.428571428571%;
+    margin:0px auto;
+}
+
+.menu__list{
+	float:right;
+	margin-top:1.59090909090909em;
+}
+
+
+.menu__item{
+	margin-left:4.44444444444444em; /*80/18*/
+
+	&:first-child{
+		margin-left: 0px;
+	}
+}
+
+
+
+
+
+@media(min-width:50px) and (max-width:700px){
+
+.menu__list{
+	float: none;
+	text-align: center;
+}
+
+.home__title{
+	float: none;
+	margin: 0px;
+	text-align: center;
+}
+
+li.menu__item{
+	display: block;
+	margin:1em 0px;
+
+}
+
+.menu__link{
+	&:after{
+		display: none;
+	}
+}
+
+}

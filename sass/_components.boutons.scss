@@ -1,0 +1,30 @@
+
+.bouton{
+    border:1px solid #D8D8D8;
+    padding:8px 45px;
+    border-radius: 8px;
+    color:#646464;
+    text-decoration: none;
+    background: white;
+    font-size: 18px;
+    font-weight: 300;
+
+    transition:all 0.3s ease-in-out;
+}
+
+.bouton:hover{
+    border: 1px solid black;
+    color:black;
+    cursor: pointer;
+}
+
+
+.appstore{
+    margin-top:4.44444444444444em; /*80/18*/
+    width:170px;
+}
+
+.logoShare{
+    width:150px;
+    display: block;
+}

@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    position: relative;
+
+    @include attention() {
+    }
+
+}
+
+
+.menu__link{
+	color: white;
+
+	&:after{
+		width:0%;
+		content:"";
+		display:block;
+		background:white;
+		height: 1px;
+		position: absolute;
+		bottom:-10px;
+		@include transition_css(all,0.15s,ease-in-out,0s);
+	}
+
+	&:hover:after{
+		width:100%;
+
+	}
+}
+

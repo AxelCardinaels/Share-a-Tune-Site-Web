@@ -1,0 +1,40 @@
+.header--home{
+    background: url("../img/headerbg.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    color:white;
+
+}
+
+
+.header__text{
+	
+
+
+	.container__title{
+		min-width: 110%;
+		max-width: 110%;
+		color: white;
+	}
+
+	.container__texte{
+		color: white;
+		font-size: 1.22222222222222em; /*22/18*/
+	}
+
+}
+
+
+@media(min-width:50px) and (max-width:700px){
+
+
+.header__text{
+.container__title{
+		min-width: 90%;
+		max-width: 90%;
+		margin:2em auto;
+	}	
+}
+	
+
+}

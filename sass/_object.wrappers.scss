@@ -1,0 +1,20 @@
+.wrapper--large{
+	width:71.428571428571%;
+	margin:0px auto;
+}
+
+.wrapper--middle{
+	width:59.52380952381%;
+	margin:0px auto;
+	position: relative;
+}
+
+
+@media(min-width:50px) and (max-width:1000px){
+
+.wrapper--large, .wrapper--middle{
+	width:90%;
+}
+
+
+}

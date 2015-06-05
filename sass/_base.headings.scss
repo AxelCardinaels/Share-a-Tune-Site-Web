@@ -1,0 +1,23 @@
+h1,h2,h3{
+	font-weight: 100;
+}
+
+
+h2,h3{
+	color:$color-headings-text;
+}
+
+h2{
+	font-size: 2.77777777777778em; /*50/18*/
+}
+
+h3{
+	font-size: 1.94444444444444em; /*35/18*/
+}
+
+.home__title{
+	float:left;
+	margin-top:0.63333333333333em; /*15/18*/
+}
+
+
